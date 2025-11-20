@@ -1,0 +1,48 @@
+2025-11-18 21:33:46 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-18 21:33:48 - Error de conexión PDO a plotter_textil: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_textil'
+2025-11-18 21:34:39 - Error de conexión PDO a plotter_textil: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_textil'
+2025-11-18 21:34:54 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-18 21:34:58 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-18 21:35:01 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-18 21:35:04 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-18 21:35:11 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-18 21:35:12 - Error de conexión PDO a plotter_textil: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_textil'
+2025-11-20 19:14:51 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:14:51 - Error de conexión PDO a plotter_textil: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_textil'
+2025-11-20 19:25:37 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:25:38 - Error de conexión PDO a plotter_textil: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_textil'
+2025-11-20 19:27:48 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:27:49 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:28:00 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:28:03 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:28:06 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:28:25 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:28:41 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:28:58 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:28:59 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:29:01 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:29:04 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:29:13 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:29:29 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:29:44 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:29:59 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:30:14 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:30:29 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:30:44 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:30:59 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:31:14 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:31:29 - Error de conexión PDO a plotter_db: SQLSTATE[HY000] [1044] Access denied for user 'c2820868_plotter'@'%' to database 'plotter_db'
+2025-11-20 19:35:08 - recuperar_password DB error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c2820868_plotter.recupero_password' doesn't exist
+2025-11-20 19:35:14 - recuperar_password DB error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c2820868_plotter.recupero_password' doesn't exist
+2025-11-20 19:36:47 - recuperar_password DB error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c2820868_plotter.recupero_password' doesn't exist
+2025-11-20 19:36:56 - recuperar_password DB error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c2820868_plotter.recupero_password' doesn't exist
+2025-11-20 19:43:28 - recuperar_password DB error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c2820868_plotter.recupero_password' doesn't exist
+2025-11-20 19:44:09 - recuperar_password DB error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c2820868_plotter.recupero_password' doesn't exist
+2025-11-20 19:45:44 - recuperar_password DB error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c2820868_plotter.recupero_password' doesn't exist
+2025-11-20 19:51:02 - recuperar_password mail sent=1 to nahuzinho0800@gmail.com
+2025-11-20 19:52:20 - recuperar_password mail sent=1 to nahuzinho0800@gmail.com
+2025-11-20 19:54:33 - recuperar_password mail sent=1 to nahuzinho0800@gmail.com
+2025-11-20 19:54:33 - recuperar_password link: https://maxxit.site/Plotter/reset_password.php?token=665fcb2245f301a0ae1270c973984b27
+2025-11-20 19:57:26 - resend response code=403 err=none resp={"statusCode":403,"message":"The maxxit.site domain is not verified. Please, add and verify your domain on https://resend.com/domains","name":"validation_error"}
+2025-11-20 19:57:26 - recuperar_password mail sent=1 to nahuzinho0800@gmail.com
+2025-11-20 19:57:26 - recuperar_password link: https://maxxit.site/Plotter/reset_password.php?token=f0fbf42624111915bae00a425f966911

@@ -1,0 +1,187 @@
+/* -----------------------------------------------------------
+   SISTEMA DE DISEÑO ACCESIBLE – PLOTTER
+   Tema Claro / Oscuro + Alto contraste + Daltonismo Friendly
+----------------------------------------------------------- */
+
+/* -------- PALETA PRINCIPAL -------- */
+:root {
+    /* Colores accesibles */
+    --primary-dark: #001F3F;
+    --primary: #0A3D91;
+    --primary-light: #3F7FCA;
+    --secondary: #2596BE;
+
+    /* neutrales */
+    --white: #FFFFFF;
+    --black: #0B0B0B;
+
+    /* estado */
+    --error: #E53935;
+
+    /* glass */
+    --glass-bg: rgba(255, 255, 255, 0.12);
+    --glass-border: rgba(255, 255, 255, 0.25);
+
+    /* Transiciones */
+    --t: 0.25s ease;
+}
+
+/* -------- MODO OSCURO -------- */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: linear-gradient(135deg, #001F3F, #0A3D91);
+        --text: #FFFFFF;
+        --label: #E0E0E0;
+    }
+}
+
+/* -------- MODO CLARO -------- */
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: linear-gradient(135deg, #dce7ff, #a1c3ff);
+        --text: #000000;
+        --label: #222222;
+        --glass-bg: rgba(255, 255, 255, 0.4);
+        --glass-border: rgba(0, 0, 0, 0.15);
+    }
+}
+
+/* -------- RESETEO -------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", Arial, sans-serif;
+    background: var(--bg);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* -------- CONTENEDOR UNIVERSAL -------- */
+
+.card {
+    width: 100%;
+    max-width: 430px;
+    padding: 40px;
+
+    background: var(--glass-bg);
+    backdrop-filter: blur(14px);
+    border-radius: 18px;
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 0 20px rgba(0,0,0,0.45);
+}
+
+/* -------- LOGO -------- */
+
+.logo-block {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.logo-img {
+    width: 90px;
+    border-radius: 16px;
+}
+
+.brand-title {
+    color: var(--text);
+    font-size: 2rem;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: var(--label);
+    margin-top: 5px;
+}
+
+/* -------- FORMULARIO -------- */
+
+.label {
+    display: block;
+    color: var(--label);
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+    margin-top: 15px;
+}
+
+.input {
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    border: 2px solid var(--primary-light);
+    font-size: 1rem;
+    background: var(--white);
+}
+
+.input:focus {
+    outline: none;
+    border-color: var(--secondary);
+    box-shadow: 0 0 0 4px rgba(37,150,190,0.25);
+}
+
+/* -------- BOTÓN -------- */
+
+.btn {
+    width: 100%;
+    padding: 14px;
+    margin-top: 22px;
+
+    background: var(--primary-light);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+
+    transition: var(--t);
+}
+
+.btn:hover {
+    background: var(--secondary);
+}
+
+/* -------- ERROR -------- */
+
+.error-message {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(229,57,53,0.15);
+    border: 1px solid rgba(229,57,53,0.35);
+    color: var(--white);
+}
+
+/* -------- LINKS -------- */
+
+.link-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-center a {
+    color: var(--primary-light);
+    text-decoration: none;
+}
+
+.link-center a:hover {
+    text-decoration: underline;
+}
+
+/* -------- ANIMACIÓN DE APARICIÓN -------- */
+
+.card {
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(10px);}
+    to {opacity: 1; transform: translateY(0);}
+}

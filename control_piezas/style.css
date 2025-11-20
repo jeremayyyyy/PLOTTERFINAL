@@ -1,0 +1,113 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 2rem;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+h2 {
+  text-align: center;
+  color: #444;
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+select, input[type="number"], button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+select:focus, input[type="number"]:focus, button:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#tabla-container {
+  margin-top: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: 600;
+}
+
+.cell-btn {
+  background-color: #fff;
+  border: 1px solid #999;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  color: black;
+}
+
+.cell-btn:hover {
+  background-color: #e9e9e9;
+}
+
+.cell-btn.complete {
+  background-color: #28a745;
+  color: #fff;
+  border-color: #28a745;
+}
+
+.remove-btn {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background: #c82333;
+}
